@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "오늘을살자"
 
 enableRobotsTXT = true
 
@@ -10,6 +10,7 @@ theme = ["docsy"]
 enableGitInfo = true
 
 # Language settings
+languageCode = "ko-kr"
 contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -53,14 +54,14 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "오늘을살자"
+description = "IoT Technical Links Computer Torrent"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
+title = "문서시스템"
+description = "한글설명"
 languageName ="Norsk"
 contentDir = "content/no"
 time_format_default = "02.01.2006"
@@ -85,9 +86,9 @@ privacy_policy = "https://policies.google.com/privacy"
 version_menu = "Releases"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/google/docsy-example"
+github_repo = "https://github.com/bjnhur/docsy"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://github.com/bjnhur/docsy"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -157,4 +158,3 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 	url = "https://example.org/mail"
 	icon = "fa fa-envelope"
         desc = "Discuss development issues around the project"
-
