@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "오늘을살자"
+title = "오늘을살자 - 문서 저장소"
 
 enableRobotsTXT = true
 
@@ -54,8 +54,8 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "오늘을살자"
-description = "IoT Technical Links Computer Torrent"
+title = "오늘을살자 - 문서 저장소"
+description = "IoT Tech Note Links Computer Torrent Document"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
