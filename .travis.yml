@@ -7,7 +7,9 @@ install:
   - echo $url
   - curl -OLkSs $url
   - sudo dpkg -i hugo*.deb
-
+  - npm install -g postcss-cli
+  - npm install -g autoprefixer
+  
 script:
   - hugo
 #  - echo 'lucianozago.com' > public/CNAME
