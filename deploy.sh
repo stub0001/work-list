@@ -1,17 +1,36 @@
-#Copyright 2018 Google LLC
-#
-#Licensed under the Apache License, Version 2.0 (the "License");
-#you may not use this file except in compliance with the License.
-#You may obtain a copy of the License at
-#
-#    https://www.apache.org/licenses/LICENSE-2.0
-#
-#Unless required by applicable law or agreed to in writing, software
-#distributed under the License is distributed on an "AS IS" BASIS,
-#WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#See the License for the specific language governing permissions and
-#limitations under the License.
-#
-rm -rf public/
-HUGO_ENV="production" hugo --gc || exit 1
-s3deploy -source=public/ -region=eu-west-1 -bucket=bep.is -distribution-id=E8OKNT7W9ZYZ2 -path temp/td
+#!/bin/bash
+
+set -e # exit with nonzero exit code if anything fails
+
+if [[ $TRAVIS_BRANCH == "master" && $TRAVIS_PULL_REQUEST == "false" ]]; then
+
+echo "Starting to update gh-pages\n"
+
+#copy data we're interested in to other place
+cp -R dist $HOME/dist
+
+#go to home and setup git
+cd $HOME
+git config --global user.email "travis@travis-ci.org"
+git config --global user.name "Travis"
+
+#using token clone gh-pages branch
+git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git gh-pages > /dev/null
+
+#go into directory and copy data we're interested in to that directory
+cd gh-pages
+cp -Rf $HOME/dist/* .
+
+echo "Allow files with underscore https://help.github.com/articles/files-that-start-with-an-underscore-are-missing/" > .nojekyll
+echo "[View live](https://${GH_USER}.github.io/${GH_REPO}/)" > README.md
+
+#add, commit and push files
+git add -f .
+git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
+git push -fq origin gh-pages > /dev/null
+
+echo "Done updating gh-pages\n"
+
+else
+ echo "Skipped updating gh-pages, because build is not triggered from the master branch."
+fi;
