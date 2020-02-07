@@ -12,6 +12,7 @@ menu:
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
 
+이제 손 볼 수 있는 건가? 또 한글이 안되는 것은 아닌지?
 
 This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. BONG ADDED CONTENTS
 
