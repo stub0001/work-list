@@ -1,5 +1,11 @@
-language: minimal
+language: node_js
+node_js:
+  - 7
+install:
+  - npm install -g postcss-cli
+  - npm install -g autoprefixer
 
+language: minimal
 # Install Hugo
 install:
 #  - url=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p;q}}')
@@ -7,9 +13,8 @@ install:
   - echo $url
   - curl -OLkSs $url
   - sudo dpkg -i hugo*.deb
-  - npm install -g postcss-cli
-  - npm install -g autoprefixer
-  
+#  - cd themes/docsy && git submodule update -f --init && cd ../.. && hugo
+
 script:
   - hugo
 #  - echo 'lucianozago.com' > public/CNAME
