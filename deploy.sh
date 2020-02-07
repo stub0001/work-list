@@ -32,5 +32,5 @@ git push -fq origin master > /dev/null
 echo "Done updating master\n"
 
 else
- echo "Skipped updating gh-pages, because build is not triggered from the master branch."
+ echo "Skipped updating master, because build is not triggered from the master branch."
 fi;
