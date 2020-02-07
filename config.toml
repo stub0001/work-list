@@ -25,8 +25,10 @@ pygmentsUseClasses = false
 # Use the new Chroma Go highlighter in Hugo.
 pygmentsUseClassic = false
 #pygmentsOptions = "linenos=table"
+
 # See https://help.farbox.com/pygments.html
-pygmentsStyle = "tango"
+#pygmentsStyle = "tango"
+pygmentsStyle = "monokai"
 
 # Configure how URLs look like per section.
 [permalinks]
@@ -51,7 +53,6 @@ anchor = "smart"
 id = "UA-00000000-0"
 
 # Language configuration
-
 [languages]
 [languages.en]
 title = "오늘을살자 - 문서 저장소"
@@ -59,13 +60,13 @@ description = "IoT Tech Note Links Computer Torrent Document"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-[languages.no]
-title = "문서시스템"
-description = "한글설명"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
+#[languages.no]
+#title = "문서시스템"
+#description = "한글설명"
+#languageName ="Norsk"
+#contentDir = "content/no"
+#time_format_default = "02.01.2006"
+#time_format_blog = "02.01.2006"
 
 [markup]
   [markup.goldmark]
