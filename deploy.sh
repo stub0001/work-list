@@ -11,8 +11,8 @@ cp -R public $HOME/public
 
 #go to home and setup git
 cd $HOME
-git config --global user.email "travis@travis-ci.org"
-git config --global user.name "Travis"
+git config --global user.email "bjnhur@gmail.com"
+git config --global user.name "bjnhur"
 
 #using token clone gh-pages branch
 git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git gh-pages > /dev/null
@@ -30,6 +30,22 @@ git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
 git push -fq origin gh-pages > /dev/null
 
 echo "Done updating gh-pages\n"
+
+
+######################################
+git clone -b master https://github.com/<GITHUB HTTPS PATH TO YOUR PUBLISHING REPO> deployment
+rsync -av --delete --exclude ".git" public/ deployment
+cd deployment
+git add -A
+# we need the || true, as sometimes you do not have any content changes
+# and git woundn't commit and you don't want to break the CI because of that
+git commit -m "rebuilding site on `date`, commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
+git push
+
+cd ..
+rm -rf deployment
+
+
 
 else
  echo "Skipped updating gh-pages, because build is not triggered from the master branch."
