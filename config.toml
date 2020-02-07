@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "/docsy/"
 title = "오늘을살자 - 문서 저장소"
 
 enableRobotsTXT = true

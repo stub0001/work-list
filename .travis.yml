@@ -4,13 +4,13 @@ language: node_js
 node_js: 11.0.0
 
 # Enable for PowerShell support
-addons:
-  apt:
-    sources:
-      - sourceline: "deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/prod xenial main"
-        key_url: "https://packages.microsoft.com/keys/microsoft.asc"
-    packages:
-      - powershell
+#addons:
+#  apt:
+#    sources:
+#      - sourceline: "deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/prod xenial main"
+#        key_url: "https://packages.microsoft.com/keys/microsoft.asc"
+#    packages:
+#      - powershell
 
 install:
   - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.64.0/hugo_extended_0.64.0_Linux-64bit.deb
@@ -28,6 +28,8 @@ env:
   - GH_TOKEN: $GITHUB_TOKEN
   - GH_USER: bjnhur
   - GH_REPO: docsy
+  - GH_SRC: master
+  - GH_DST: gh-pages
 
 # Deploy to GitHub pages
 #deploy:
