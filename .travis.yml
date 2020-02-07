@@ -33,7 +33,7 @@ install:
 #     - GITHUB_TOKEN=supersecret
 
 script:
-  - hugo
+  - hugo --debug
 
 # Deploy to GitHub pages
 deploy:
