@@ -1,22 +1,39 @@
+---
+dist: xenial
 language: node_js
-node_js:
-  - 7
+node_js: 11.0.0
 
-language: shell
-# Install Hugo
+sudo: false
+
+# Enable for PowerShell support
+addons:
+  apt:
+    sources:
+      - sourceline: "deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/prod xenial main"
+        key_url: "https://packages.microsoft.com/keys/microsoft.asc"
+    packages:
+      - powershell
+
 install:
-#  - url=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p;q}}')
-  - sudo npm install -g postcss-cli
-  - sudo npm install -g autoprefixer
-  - url='https://github.com/gohugoio/hugo/releases/download/v0.64.0/hugo_extended_0.64.0_Linux-64bit.deb'
-  - echo $url
-  - curl -OLkSs $url
-  - sudo dpkg -i hugo*.deb
-#  - cd themes/docsy && git submodule update -f --init && cd ../.. && hugo
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.64.0/hugo_extended_0.64.0_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
+  - npm install
+
+##  - url=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p;q}}')
+#  - sudo npm install -g postcss-cli
+#  - sudo npm install -g autoprefixer
+#  - url='https://github.com/gohugoio/hugo/releases/download/v0.64.0/hugo_extended_0.64.0_Linux-64bit.deb'
+#  - echo $url
+#  - curl -OLkSs $url
+#  - sudo dpkg -i hugo*.deb
+##  - cd themes/docsy && git submodule update -f --init && cd ../.. && hugo
+
+# env:
+#   global:
+#     - GITHUB_TOKEN=supersecret
 
 script:
   - hugo
-#  - echo 'lucianozago.com' > public/CNAME
 
 # Deploy to GitHub pages
 deploy:
