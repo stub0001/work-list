@@ -26,8 +26,8 @@ after_success:
 env:
   global:
   - GH_TOKEN: $GITHUB_TOKEN
-  - GH_USER: user
-  - GH_REPO: repository
+  - GH_USER: bjnhur
+  - GH_REPO: docsy
 
 # Deploy to GitHub pages
 #deploy:
