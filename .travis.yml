@@ -21,7 +21,7 @@ script:
   - hugo --debug
 
 after_success:
-  - bash ./scripts/deploy.sh
+  - bash ./deploy.sh
 
 env:
   global:
