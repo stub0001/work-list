@@ -16,6 +16,10 @@ menu:
 이제 손 볼 수 있는 건가? 또 한글이 안되는 것은 아닌지?
 어떤 글을 채워 나가 볼까요? WizFi360??
 
+## 블로그 글쓰기 - 어떻게?
+https://speakerdeck.com/nacyot/gisul-beulrogeu-saengjon-jeonryag-gugeul-sidaeyi-geulsseugi?slide=79
+<script async class="speakerdeck-embed" data-slide="79" data-id="cdfafe87eef34218a9e66aa6a8bf0064" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
 ## Docsy 플랫폼 소개
 For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which lives in the [Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to copy its docs section.
 
