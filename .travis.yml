@@ -25,7 +25,7 @@ after_success:
 
 env:
   global:
-  - GH_TOKEN: 7eb90e1a187048be35cd21f148f9fe1af5af26e8
+  - GH_TOKEN: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   - GH_USER: stub0001
   - GH_REPO: work-list
   - GH_SRC: master
