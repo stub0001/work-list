@@ -32,17 +32,17 @@ env:
   - GH_DST: gh-pages
 
 # Deploy to GitHub pages
-# deploy:
-#   local_dir: public
-#   repo: stub0001.github.io
-#   target_branch: master
-#   provider: pages
-#   skip_cleanup: true
-#   github_token: $GITHUB_TOKEN
-#   email: csstub@gmail.com
-#   name: stub
-#   on:
-#     branch: master
+deploy:
+  local_dir: public
+  repo: stub0001.github.io
+  target_branch: master
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  email: csstub@gmail.com
+  name: stub
+  on:
+    branch: master
 
 # deploy:
 #   provider: pages
