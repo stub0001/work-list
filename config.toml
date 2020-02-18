@@ -1,4 +1,5 @@
-baseURL = "/work-list/"
+# baseURL = "/work-list/"
+baseURL = "/"
 title = "STUB0001 - Work List"
 
 enableRobotsTXT = true
@@ -87,9 +88,9 @@ privacy_policy = "https://policies.google.com/privacy"
 version_menu = "Releases"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/bjnhur/docsy"
+github_repo = "https://github.com/stub0001/work-list"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/bjnhur/docsy"
+github_project_repo = "https://github.com/stub0001/work-list"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
