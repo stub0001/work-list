@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>오늘을살자 - 문서 저장소 – Concepts</title>
-    <link>/docsy/docs/concepts/</link>
-    <description>Recent content in Concepts on 오늘을살자 - 문서 저장소</description>
+    <title>STUB0001 - Work List – Concepts</title>
+    <link>/work-list/docs/concepts/</link>
+    <description>Recent content in Concepts on STUB0001 - Work List</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     
-	  <atom:link href="/docsy/docs/concepts/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/work-list/docs/concepts/index.xml" rel="self" type="application/rss+xml" />
     
     
       

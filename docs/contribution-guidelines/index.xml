@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>오늘을살자 - 문서 저장소 – Contribution Guidelines</title>
-    <link>/docsy/docs/contribution-guidelines/</link>
-    <description>Recent content in Contribution Guidelines on 오늘을살자 - 문서 저장소</description>
+    <title>STUB0001 - Work List – Contribution Guidelines</title>
+    <link>/work-list/docs/contribution-guidelines/</link>
+    <description>Recent content in Contribution Guidelines on STUB0001 - Work List</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     
-	  <atom:link href="/docsy/docs/contribution-guidelines/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/work-list/docs/contribution-guidelines/index.xml" rel="self" type="application/rss+xml" />
     
     
       

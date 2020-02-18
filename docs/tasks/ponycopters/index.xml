@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>오늘을살자 - 문서 저장소 – Working with Ponycopters</title>
-    <link>/docsy/docs/tasks/ponycopters/</link>
-    <description>Recent content in Working with Ponycopters on 오늘을살자 - 문서 저장소</description>
+    <title>STUB0001 - Work List – Working with Ponycopters</title>
+    <link>/work-list/docs/tasks/ponycopters/</link>
+    <description>Recent content in Working with Ponycopters on STUB0001 - Work List</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="/docsy/docs/tasks/ponycopters/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/work-list/docs/tasks/ponycopters/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Docs: Configuring Ponycopters</title>
-      <link>/docsy/docs/tasks/ponycopters/configuring-ponycopters/</link>
+      <link>/work-list/docs/tasks/ponycopters/configuring-ponycopters/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docsy/docs/tasks/ponycopters/configuring-ponycopters/</guid>
+      <guid>/work-list/docs/tasks/ponycopters/configuring-ponycopters/</guid>
       <description>
         
         
@@ -318,10 +318,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Launching Ponycopters</title>
-      <link>/docsy/docs/tasks/ponycopters/launching-ponycopters/</link>
+      <link>/work-list/docs/tasks/ponycopters/launching-ponycopters/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docsy/docs/tasks/ponycopters/launching-ponycopters/</guid>
+      <guid>/work-list/docs/tasks/ponycopters/launching-ponycopters/</guid>
       <description>
         
         

@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>오늘을살자 - 문서 저장소 – Documentation</title>
-    <link>/docsy/docs/</link>
-    <description>Recent content in Documentation on 오늘을살자 - 문서 저장소</description>
+    <title>STUB0001 - Work List – Documentation</title>
+    <link>/work-list/docs/</link>
+    <description>Recent content in Documentation on STUB0001 - Work List</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     
-	  <atom:link href="/docsy/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/work-list/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Bed and Chair Metrics</title>
-      <link>/docsy/docs/tasks/beds/</link>
+      <link>/work-list/docs/tasks/beds/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docsy/docs/tasks/beds/</guid>
+      <guid>/work-list/docs/tasks/beds/</guid>
       <description>
         
         
@@ -317,10 +317,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Configuring Ponycopters</title>
-      <link>/docsy/docs/tasks/ponycopters/configuring-ponycopters/</link>
+      <link>/work-list/docs/tasks/ponycopters/configuring-ponycopters/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docsy/docs/tasks/ponycopters/configuring-ponycopters/</guid>
+      <guid>/work-list/docs/tasks/ponycopters/configuring-ponycopters/</guid>
       <description>
         
         
@@ -618,10 +618,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Launching Ponycopters</title>
-      <link>/docsy/docs/tasks/ponycopters/launching-ponycopters/</link>
+      <link>/work-list/docs/tasks/ponycopters/launching-ponycopters/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docsy/docs/tasks/ponycopters/launching-ponycopters/</guid>
+      <guid>/work-list/docs/tasks/ponycopters/launching-ponycopters/</guid>
       <description>
         
         
@@ -919,10 +919,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Multi-Bear Domicile Setup</title>
-      <link>/docsy/docs/tutorials/multi-bear/</link>
+      <link>/work-list/docs/tutorials/multi-bear/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docsy/docs/tutorials/multi-bear/</guid>
+      <guid>/work-list/docs/tutorials/multi-bear/</guid>
       <description>
         
         
@@ -1220,10 +1220,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Porridge Assessment</title>
-      <link>/docsy/docs/tasks/porridge/</link>
+      <link>/work-list/docs/tasks/porridge/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docsy/docs/tasks/porridge/</guid>
+      <guid>/work-list/docs/tasks/porridge/</guid>
       <description>
         
         
@@ -1521,10 +1521,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Another Task</title>
-      <link>/docsy/docs/tasks/task/</link>
+      <link>/work-list/docs/tasks/task/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docsy/docs/tasks/task/</guid>
+      <guid>/work-list/docs/tasks/task/</guid>
       <description>
         
         
@@ -1822,10 +1822,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Another Tutorial</title>
-      <link>/docsy/docs/tutorials/tutorial2/</link>
+      <link>/work-list/docs/tutorials/tutorial2/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docsy/docs/tutorials/tutorial2/</guid>
+      <guid>/work-list/docs/tutorials/tutorial2/</guid>
       <description>
         
         
@@ -2123,10 +2123,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Example Page</title>
-      <link>/docsy/docs/getting-started/example-page/</link>
+      <link>/work-list/docs/getting-started/example-page/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docsy/docs/getting-started/example-page/</guid>
+      <guid>/work-list/docs/getting-started/example-page/</guid>
       <description>
         
         
@@ -2424,10 +2424,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Parameter Reference</title>
-      <link>/docsy/docs/reference/parameter-reference/</link>
+      <link>/work-list/docs/reference/parameter-reference/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docsy/docs/reference/parameter-reference/</guid>
+      <guid>/work-list/docs/reference/parameter-reference/</guid>
       <description>
         
         
