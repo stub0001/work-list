@@ -36,8 +36,8 @@ deploy:
   provider: pages
   cleanup: true
   token: $GITHUB_TOKEN
-  email: csstub@gmail.com
-  name: stub
+  email: neonsky@paran.com
+  name: stub0001
   local_dir: public
   on:
     branch: master
