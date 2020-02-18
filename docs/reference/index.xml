@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>STUB0001 - Work List – Reference</title>
-    <link>/work-list/docs/reference/</link>
+    <link>/docs/reference/</link>
     <description>Recent content in Reference on STUB0001 - Work List</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     
-	  <atom:link href="/work-list/docs/reference/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/docs/reference/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Parameter Reference</title>
-      <link>/work-list/docs/reference/parameter-reference/</link>
+      <link>/docs/reference/parameter-reference/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/work-list/docs/reference/parameter-reference/</guid>
+      <guid>/docs/reference/parameter-reference/</guid>
       <description>
         
         

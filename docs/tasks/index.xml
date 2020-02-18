@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>STUB0001 - Work List – Core Tasks</title>
-    <link>/work-list/docs/tasks/</link>
+    <link>/docs/tasks/</link>
     <description>Recent content in Core Tasks on STUB0001 - Work List</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="/work-list/docs/tasks/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/docs/tasks/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Docs: Bed and Chair Metrics</title>
-      <link>/work-list/docs/tasks/beds/</link>
+      <link>/docs/tasks/beds/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/work-list/docs/tasks/beds/</guid>
+      <guid>/docs/tasks/beds/</guid>
       <description>
         
         
@@ -318,10 +318,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Porridge Assessment</title>
-      <link>/work-list/docs/tasks/porridge/</link>
+      <link>/docs/tasks/porridge/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/work-list/docs/tasks/porridge/</guid>
+      <guid>/docs/tasks/porridge/</guid>
       <description>
         
         
@@ -619,10 +619,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Another Task</title>
-      <link>/work-list/docs/tasks/task/</link>
+      <link>/docs/tasks/task/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/work-list/docs/tasks/task/</guid>
+      <guid>/docs/tasks/task/</guid>
       <description>
         
         
@@ -920,10 +920,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Working with Ponycopters</title>
-      <link>/work-list/docs/tasks/ponycopters/</link>
+      <link>/docs/tasks/ponycopters/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/work-list/docs/tasks/ponycopters/</guid>
+      <guid>/docs/tasks/ponycopters/</guid>
       <description>
         
         
