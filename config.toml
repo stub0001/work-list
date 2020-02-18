@@ -1,5 +1,5 @@
-baseURL = "/docsy/"
-title = "오늘을살자 - 문서 저장소"
+baseURL = "/work-list/"
+title = "STUB0001 - Work List"
 
 enableRobotsTXT = true
 
@@ -55,8 +55,8 @@ id = "UA-00000000-0"
 # Language configuration
 [languages]
 [languages.en]
-title = "오늘을살자 - 문서 저장소"
-description = "IoT Tech Note Links Computer Torrent Document"
+title = "STUB0001 - Work List"
+description = "Personal work list up pages"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -76,7 +76,7 @@ weight = 1
 # Everything below this are Site Params
 
 [params]
-copyright = "Bongjun Hur"
+copyright = "STUB0001"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -95,7 +95,7 @@ github_project_repo = "https://github.com/bjnhur/docsy"
 # github_subdir = ""
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+# gcs_engine_id = "011737558837375720776:fsdu1nryfng"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
@@ -135,7 +135,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 #        desc = "Discussion and help from your fellow users"
 [[params.links.user]]
 	name ="Twitter"
-	url = "https://twitter.com/bongjunhur"
+	url = "https://twitter.com"
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
 #[[params.links.user]]
@@ -146,7 +146,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/bjnhur/docsy"
+	url = "https://github.com/stub0001/work-list"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 #[[params.links.developer]]
