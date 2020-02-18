@@ -33,13 +33,25 @@ env:
 
 # Deploy to GitHub pages
 deploy:
-  provider: pages
-  repo: stub0001.github.io
-  skip_cleanup: true
-  target_branch: master
-  github_token: $GITHUB_TOKEN
-  email: neonsky@paran.com
-  name: stub0001
   local_dir: public
+  repo: stub0001.github.io
+  target_branch: master
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  email: csstub@gmail.com
+  name: stub
   on:
     branch: master
+
+# deploy:
+#   provider: pages
+#   repo: stub0001.github.io
+#   skip_cleanup: true
+#   target_branch: master
+#   github_token: $GITHUB_TOKEN
+#   email: neonsky@paran.com
+#   name: stub0001
+#   local_dir: public
+#   on:
+#     branch: master
