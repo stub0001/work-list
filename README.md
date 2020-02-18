@@ -1,4 +1,4 @@
-![Image of TravisCI status](https://travis-ci.org/bjnhur/docsy.svg?branch=master)
+[![Build Status](https://travis-ci.com/stub0001/work-list.svg?token=U9kbPCZEDy3fwcmrg2Ly&branch=master)](https://travis-ci.com/stub0001/work-list)
 
 # Docsy Example
 
