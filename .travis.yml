@@ -40,4 +40,4 @@ deploy:
   name: stub0001
   local_dir: public
   on:
-    branch: master
+    branch: gh-pages
