@@ -40,6 +40,8 @@ deploy:
   edge: true
   email: csstub@gmail.com
   name: stub
-  local_dir: public
+  # local_dir: public
   on:
     branch: master
+
+
