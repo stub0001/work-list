@@ -1,5 +1,5 @@
-# baseURL = "/work-list/"
-baseURL = "/"
+baseURL = "/work-list/"
+# baseURL = "/"
 title = "STUB0001 - Work List"
 
 enableRobotsTXT = true
