@@ -31,12 +31,13 @@ env:
   - GH_SRC: master
   - GH_DST: gh-pages
 
-  
+
 # Deploy to GitHub pages
 deploy:
-  provider: pages
+  provider: pages:git
   cleanup: true
   token: $GITHUB_TOKEN
+  edge: true
   email: csstub@gmail.com
   name: stub
   local_dir: public
