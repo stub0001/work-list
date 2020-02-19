@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>STUB0001 - Work List – Concepts</title>
-    <link>/docs/concepts/</link>
+    <link>/work-list/docs/concepts/</link>
     <description>Recent content in Concepts on STUB0001 - Work List</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     
-	  <atom:link href="/docs/concepts/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/work-list/docs/concepts/index.xml" rel="self" type="application/rss+xml" />
     
     
       
