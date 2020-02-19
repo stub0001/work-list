@@ -37,15 +37,15 @@ env:
 
 
 # Deploy to GitHub pages
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  edge: true
-  email: csstub@gmail.com
-  name: stub
-  local_dir: public
-  on:
-    branch: master
+# deploy:
+#   provider: pages
+#   skip_cleanup: true
+#   github_token: $GITHUB_TOKEN
+#   edge: true
+#   email: csstub@gmail.com
+#   name: stub
+#   local_dir: public
+#   on:
+#     branch: master
 
 
